@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+  store = []
+  array.each { |i| store << i ** 2 }
+  store
 end
