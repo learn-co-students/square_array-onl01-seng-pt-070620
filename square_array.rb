@@ -1,7 +1,8 @@
 def square_array(array)
- new_array = [1,4,9 ]
-  array.each do [1,4,9]
+  new_array = []
+  array.each{|a| new_array.push(a*a)}
+  return new_array
 end 
 
-end 
+
   
